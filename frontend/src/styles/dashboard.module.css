@@ -1,0 +1,57 @@
+.volunteerCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logout {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.logoutBtn {
+    cursor: pointer;
+    box-sizing: border-box;
+    z-index: 999;
+    background: transparent;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.volunteerCard {
+    font-family: "Libertinus Sans";
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 2px 0px 10px 10px rgba(0, 0, 0, 0.1);
+    width: min(350px, 90vw);
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.volunteerCard:hover {
+    transform: translateY(-4px);
+}
+
+.fullname {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid #444;
+}
+
+.address {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.contact {
+    font-size: 0.75rem;
+    color: #444;
+    word-break: break-word;
+}

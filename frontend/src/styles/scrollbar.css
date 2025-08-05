@@ -1,0 +1,19 @@
+/* 1. Hide scrollbar across all elements */
+* {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+*::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+/* 2. Ensure the body and html can still scroll (optional) */
+html,
+body {
+    overflow: auto;
+    height: 100%;
+}
