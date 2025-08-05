@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className={style.container}>
             <header className={style.hero}>
-                <h1>Welcome to HopeBridge</h1>
+                <h1>UnityLane</h1>
                 <p>Empowering communities through compassion and service</p>
             </header>
 

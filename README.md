@@ -1,4 +1,4 @@
-# HopeBridge Portal
+# UnityLane Portal
 
 A simple web portal that allows users to register as candidates for the HopeBridge platform. It includes a public homepage, candidate registration form, and an admin panel with login and dashboard functionalities.
 
